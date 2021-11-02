@@ -74,7 +74,7 @@ async function getReadOnlySasQueryParameter(account: string, container: string) 
   );
   httpsServer.listen(
     {
-      host: "local.teams.office.com",
+      host: SslHost,
       port: 443,
     },
     () => {
